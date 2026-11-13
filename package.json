@@ -1,0 +1,34 @@
+{
+  "name": "dsh-packing-list",
+  "version": "0.1.0",
+  "description": "出口装箱单生成与校验：按重量/体积估箱、体积重与计费重",
+  "type": "module",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "packing list",
+    "装箱单",
+    "shipping",
+    "export",
+    "贸易单证"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moldkey/dsh-packing-list.git"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "dsh": ">=0.2.0-rc.2"
+  }
+}
