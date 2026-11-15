@@ -1,3 +1,4 @@
+[![DSHIO/T 10](https://dshio.org/badge/std.svg)](https://dshio.org/10/) [![deepseekbase](https://deepseekbase.com/badge/dsh-packing-list.svg)](https://deepseekbase.com/plugins/dsh-packing-list/)
 <p align="center"><strong>dsh-packing-list — 出口装箱单生成与校验</strong></p>
 
 按重量和体积估算箱数，生成装箱单；也能校验毛重/体积/件数并算体积重与计费重。
